@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1428154150812523513
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFX_Dust_Int_MAT
+  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+  - _FLIPBOOKBLENDING_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 32eafd65d919d7c43876d20e7c18a89f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErodeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientLUTTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureOne:
+        m_Texture: {fileID: 2800000, guid: 32eafd65d919d7c43876d20e7c18a89f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureTwo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normaltexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _reflectioncubemaptexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - ADDEMISSIVETOREFLECTION: 0
+    - ADDTEXTUREONEANDTWO: 0
+    - BLINK: 0
+    - BOOLEAN_109F0C23: 0
+    - BOOLEAN_763106BA: 1
+    - BOOLEAN_CC931266: 1
+    - CVSCONTROLY: 0
+    - ERODE: 0
+    - HARDERODE: 0
+    - INVERTERODETEXTURE: 0
+    - INVERTFRESNEL: 0
+    - INVERTMASK: 0
+    - RANDOMBLINKING: 0
+    - SOFTERODE: 0
+    - SPLITALPHAOUT: 0
+    - TEXTUREONERANDOMRGB: 0
+    - USEALPHACHANNEL: 0
+    - USECVSEMISSIVECONTROL: 0
+    - USECVSEMISSIVEMASKDIRECTIONRANDOM: 0
+    - USECVSERODETEXTUREDIRECTIONRANDOM: 0
+    - USECVSGRADIENTCONTROL: 0
+    - USECVSNORMALTEXTUREDIRECTIONRANDOM: 0
+    - USECVSTEXTUREMASKDIRECTIONCONTROL: 0
+    - USECVSTEXTUREMASKDIRECTIONRANDOM: 0
+    - USECVSTEXTUREONECONTROL: 0
+    - USECVSTEXTUREONEDIRECTIONRANDOM: 0
+    - USECVSTEXTURETWODIRECTIONRANDOM: 0
+    - USECVSUVNOISESTRENGTH: 0
+    - USEEMISSIVEEDGEGRADIENT: 0
+    - USEEMISSIVEGRADIENT: 0
+    - USEEMISSIVEMASKTEXTURE: 0
+    - USEEMISSIVERADIALGRADIENT: 0
+    - USEERODETEXTURE: 0
+    - USEFRESNEL: 0
+    - USEGRADIENTCOLOROVERLAY: 0
+    - USEGRADIENTLUT: 0
+    - USEHDRCOLOR: 0
+    - USEMASKBOXGRADIENT: 0
+    - USEMASKEDGEGRADIENT: 0
+    - USEMASKGRADIENT: 0
+    - USEMASKRADIALGRADIENT: 0
+    - USEMASKUVDISTORTION: 0
+    - USENORMALMAPS: 0
+    - USEPARTICLESOFTNESS: 1
+    - USEREFLECTION: 0
+    - USETEXTUREALPHA: 0
+    - USETEXTUREMASK: 0
+    - USETEXTUREONEFRAMEBLENDING: 0
+    - USETEXTURETWOBOXGRADIENT: 0
+    - USETEXTURETWOEDGEGRADIENT: 0
+    - USETEXTURETWOGRADIENT: 0
+    - USETEXTURETWORADIALGRADIENT: 0
+    - USETWONORMALTEXTURES: 0
+    - USETWOTEXTURES: 0
+    - USEUVDISTORTION: 0
+    - USEWORLDPOSITIONEMISSIVEMASKTEXTURE: 0
+    - USEWORLDPOSITIONERODETEXTURE: 0
+    - USEWORLDPOSITIONMASK: 0
+    - USEWORLDPOSITIONTEXTUREONE: 0
+    - USEWORLDPOSITIONTEXTURETWO: 0
+    - USEWORLDSPACENORMALS: 0
+    - USEZNORMAL: 0
+    - Vector1_A5C860C7: 1
+    - _AlphaClip: 0
+    - _AlphaClipThreshold: 0
+    - _AlphaContrast: 0.05
+    - _AlphaDstBlend: 10
+    - _AlphaMulti: 1
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _BackfaceNormalFlip: 0
+    - _Blend: 2
+    - _BlendOp: 0
+    - _BlinkAmplitude: 1
+    - _BlinkFrequency: 1
+    - _BlinkLowRange: 0
+    - _BumpScale: 1
+    - _CVSTextureNegativeShift: -1
+    - _CameraDistanceFade: 2
+    - _CameraDistanceFadeFallOff: 2
+    - _CameraDistanceFadeSmoothness: 2
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 1
+    - _DstBlendAlpha: 1
+    - _EmissiveIntensity: 0.1
+    - _EmissiveMaskFallOff: 0
+    - _EmissiveMaskIntensity: 1
+    - _EmissiveMaskPositionShift: 0
+    - _EmissiveMaskRotation: 0
+    - _EmissiveMaskRotationSpeed: 0
+    - _EmissiveMaskSmoothness: 1
+    - _EnvironmentReflections: 1
+    - _ErodeRotation: 0
+    - _ErodeRotationSpeed: 0
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _FresnelPower: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GradientColorRotation: 0
+    - _GradientColorRotationSpeed: 0
+    - _GradientPositionShift: -1
+    - _MaskFallOff: 0
+    - _MaskIntensity: 1
+    - _MaskPositionShift: 0
+    - _MaskRotation: 0
+    - _MaskRotationSpeed: 0
+    - _MaskSmoothness: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalOneRotation: 0
+    - _NormalOneRotationSpeed: 0
+    - _NormalStrength: 0.2
+    - _NormalTwoRotation: 0
+    - _NormalTwoRotationSpeed: 0
+    - _Occlusion: 0
+    - _OcclusionStrength: 1
+    - _ParticleSoftness: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Saturation: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SoftnessFallOff: 1
+    - _SoftnessSmoothness: 1
+    - _SpecularHighlights: 1
+    - _Specularity: 0.5
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
+    - _Surface: 1
+    - _TextureOneFallOff: 0
+    - _TextureOneIntensity: 1
+    - _TextureOneMulti: 1
+    - _TextureOneRandomRGBSpeed: 1
+    - _TextureOneRotation: 0
+    - _TextureOneRotationSpeed: 0
+    - _TextureOneSmoothness: 1
+    - _TextureTwoFallOff: 0
+    - _TextureTwoMulti: 1
+    - _TextureTwoPositionShift: 0
+    - _TextureTwoRotation: 0
+    - _TextureTwoRotationSpeed: 0
+    - _TextureTwoSmoothness: 1
+    - _UVDistortWPScaling: 50
+    - _UVNoiseRotation: 0
+    - _UVNoiseRotationSpeed: 0
+    - _UVNoiseStrength: 0.02
+    - _WorkflowMode: 1
+    - _ZTest: 2
+    - _ZWrite: 0
+    - _hueshift: 0
+    - _normalonerotation: 0
+    - _normalonerotationspeed: 0
+    - _normalstrength: 0.2
+    - _normaltworotation: 0
+    - _normaltworotationspeed: 0
+    - _occlusion: 0
+    - _reflectionblur: 0
+    - _reflectoinfresnelintensity: 1
+    - _specularity: 0.5
+    m_Colors:
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveMaskDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveMaskRadialPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _EmissiveMaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _ErodeDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _ErodeTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _GradientColorDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientColorTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _HDRColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskRadialPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _NormalOneDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalOneTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _NormalTwoDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalTwoTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TextureOneDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _TextureOneTIling: {r: 1, g: 1, b: 0, a: 0}
+    - _TextureOneTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _TextureTwoDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _TextureTwoRadialPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _TextureTwoTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _UVNoiseDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _UVNoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _WorldScaling: {r: 100, g: 100, b: 0, a: 0}
+    - _normalonedirection: {r: 0, g: 0, b: 0, a: 0}
+    - _normaltwodirection: {r: 0, g: 0, b: 0, a: 0}
+    - _normaltwotiling: {r: 1, g: 1, b: 0, a: 0}
+    - _reflectionfresnelremap: {r: 0, g: 1, b: 0, a: 0}
+    - _specularcolor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

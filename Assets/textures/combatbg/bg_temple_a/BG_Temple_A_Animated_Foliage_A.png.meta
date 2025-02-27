@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 8d7319896013c4c468ef19af28bb177b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1705
+        width: 193
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a28f4681e1efe4d93c67c799aa216b
+      internalID: -1655000273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 928
+        width: 1063
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd12ae0bf7a2d34895de60a25139f2e
+      internalID: -4679228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_2
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 426
+        width: 828
+        height: 1554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4691d05c7b5a864ca8d00b7c8492a7a
+      internalID: 843701338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1453
+        width: 235
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06586505926aceb48a25cb497913604d
+      internalID: 425617774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 690
+        width: 144
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02ce544f525f9c4f93e4539ca0acd6a
+      internalID: -1992039487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 645
+        width: 192
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ef723bb758d1749a128a84ae67f9ab
+      internalID: -1103544076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 120
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5898305a4ab839418a44a1337a63eb2
+      internalID: 565568429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 376
+        width: 365
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f2bf5aec93de5479507a8887bdceaf
+      internalID: 1740196089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_8
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 21
+        width: 62
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524760b1633148c48bf0323b3dc7436e
+      internalID: 1038019428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 236
+        width: 133
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241d4234fdabda744b2c0a055ee0548f
+      internalID: 1163671060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 264
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b738580c1fdbba41ab809caf65ca118
+      internalID: 1593564891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_11
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 29
+        width: 55
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6eb61b5e114544db23c6bbe6fb16a5
+      internalID: -23159918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 132
+        width: 61
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46887d36c19497c47b307fa55e301ad7
+      internalID: 1855897910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 71
+        width: 135
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82e06259f5148c41974f8918bb97d1f
+      internalID: 293613211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_14
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 66
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee4538192564c3418fbdd42e078bc09
+      internalID: -1843666975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_15
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 94
+        width: 140
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58273b1fc707dee499cc7a696ffa7ce0
+      internalID: 1615285750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_16
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 52
+        width: 91
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc40dc16bfa51d4d904bd226927a2cb
+      internalID: -752413418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_17
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 75
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a98cefa7581aa4d81eb750fa279414
+      internalID: -978678734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 64
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25428ae1f12f704f8364bb2177b3208
+      internalID: -1986516016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33525b14b86492f419d4edc9b6047723
+      internalID: -154977358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Temple_A_Animated_Foliage_A_20
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 76
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474b59fd8d36dca43bd209867e61184b
+      internalID: -1911360812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9295328aa30d36e428b2b8a5b05a3b45
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BG_Temple_A_Animated_Foliage_A_0: -1655000273
+      BG_Temple_A_Animated_Foliage_A_1: -4679228
+      BG_Temple_A_Animated_Foliage_A_10: 1593564891
+      BG_Temple_A_Animated_Foliage_A_11: -23159918
+      BG_Temple_A_Animated_Foliage_A_12: 1855897910
+      BG_Temple_A_Animated_Foliage_A_13: 293613211
+      BG_Temple_A_Animated_Foliage_A_14: -1843666975
+      BG_Temple_A_Animated_Foliage_A_15: 1615285750
+      BG_Temple_A_Animated_Foliage_A_16: -752413418
+      BG_Temple_A_Animated_Foliage_A_17: -978678734
+      BG_Temple_A_Animated_Foliage_A_18: -1986516016
+      BG_Temple_A_Animated_Foliage_A_19: -154977358
+      BG_Temple_A_Animated_Foliage_A_2: 843701338
+      BG_Temple_A_Animated_Foliage_A_20: -1911360812
+      BG_Temple_A_Animated_Foliage_A_3: 425617774
+      BG_Temple_A_Animated_Foliage_A_4: -1992039487
+      BG_Temple_A_Animated_Foliage_A_5: -1103544076
+      BG_Temple_A_Animated_Foliage_A_6: 565568429
+      BG_Temple_A_Animated_Foliage_A_7: 1740196089
+      BG_Temple_A_Animated_Foliage_A_8: 1038019428
+      BG_Temple_A_Animated_Foliage_A_9: 1163671060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: combatbackground/temple
+  assetBundleVariant: 

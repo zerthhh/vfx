@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrackLight 14
+  m_Shader: {fileID: 4800000, guid: 68475ac26440a4945b9c9fcc77b0a7d1, type: 3}
+  m_ShaderKeywords: _EMISSION _NONPREMULTIPLYRGBTEXTURE_ON _SECONDTEXTURETYPE_RGBR _SECONDTEXTURE_TWOTEXMASKED _TEXTURETYPE_RGBR
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 43db1ee8a68a5ee42ada0753cffe7907, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SecondTex:
+        m_Texture: {fileID: 2800000, guid: fda82186b89cf33478fa6173d6b6d73d, type: 3}
+        m_Scale: {x: 0.64, y: 0.7}
+        m_Offset: {x: 0.24, y: 0.09}
+    m_Floats:
+      Boolean_44360A2: 0
+      Boolean_64DC5AE4: 0
+      Boolean_AAD50612: 0
+      Boolean_C3E0BFC4: 0
+      Boolean_D28A4547: 0
+      PixelSnap: 0
+      Vector1_1EBB9240: 0.1
+      Vector1_2B1E7891: 1
+      Vector1_38B030A8: 1
+      Vector1_46FFAE04: 1
+      Vector1_49511A4C: -0.2
+      Vector1_4CBAB083: 4
+      Vector1_4DD4FEEF: -0.53
+      Vector1_62832B26: -1.72
+      Vector1_A6A56EE6: 0.82
+      Vector1_AC14745: 0.18
+      Vector1_B7042105: 0
+      Vector1_D6891792: 1
+      Vector1_DC9F7510: 0.1
+      Vector1_E52736A7: 1
+      Vector1_E6FE2A1: 5
+      Vector1_ECD807B1: 0.64
+      Vector1_F3D6166A: 1.2
+      Vector1_F76AC773: 1
+      _Alpha2Mul: 4
+      _AlphaMul: 1
+      _BlendOp: 0
+      _BumpScale: 1
+      _CameraFadingEnabled: 0
+      _CameraFarFadeDistance: 2
+      _CameraNearFadeDistance: 1
+      _Clip: 0
+      _ColorMode: 0
+      _ColorMul: 0
+      _ColorMul2: 3
+      _Coloring: 0
+      _Cull: 2
+      _Culling: 0
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DistortionBlend: 0.5
+      _DistortionEnabled: 0
+      _DistortionStrength: 1
+      _DistortionStrengthScaled: 0
+      _DstBlend: 0
+      _DstBlendOutline: 10
+      _EmissionEnabled: 0
+      _EnableExternalAlpha: 0
+      _Erase: 0
+      _EraseFactor: 0
+      _EraseSmoothness: 0.77
+      _FlipbookMode: 0
+      _Fresnel: 0
+      _FresnelColorMultiplier: 0
+      _FresnelPower: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _IgnoreVertexAlpha: 0
+      _InvFade: 1
+      _LegacyColorMul: 0
+      _LightingEnabled: 1
+      _Metallic: 0
+      _MiddlePointPos: 0.748
+      _MinAlpha: -0.53
+      _Mode: 0
+      _NonPremultiplyRGBTexture: 1
+      _OcclusionStrength: 1
+      _Offset1: 0
+      _Offset2: 0
+      _Parallax: 0.02
+      _Scrolling: 0
+      _SecondTexBlend: 0
+      _SecondTexture: 3
+      _SecondTextureType: 1
+      _SmoothnessTextureChannel: 0
+      _SoftParticlesEnabled: 0
+      _SoftParticlesFarFadeDistance: 1
+      _SoftParticlesNearFadeDistance: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SrcBlendOutline: 1
+      _SwapUV: 0
+      _SwapUV_Second: 0
+      _TextureType: 1
+      _UVSec: 0
+      _VertexOffset: 0
+      _VertexOffsetMul: 0
+      _ZTest: 0
+      _ZWrite: 1
+      _ZWrite1: 0
+      _depth: 3
+      _diff_pan_u: 0.01
+      _diff_pan_v: 0.01
+      _diff_smooth: 0.1
+      _diff_smooth_size: 0.1
+      _fresnel_power: 4
+      _fresnel_size: 0.05
+      _highlight_power: 1
+      _highlight_smooth: 0.1
+      _highlight_smooth_size: 0.1
+      _refr_norm2_pan_u: 0.005
+      _refr_norm2_pan_v: 0.005
+      _refraction_power: 0.1
+      _uvd_norm1_pan_u: -0.005
+      _uvd_norm1_pan_v: -0.005
+      _uvd_power: 0.1
+    m_Colors:
+      Color_26A4109C: {r: 1, g: 1, b: 1, a: 0}
+      Color_2701E322: {r: 1, g: 1, b: 1, a: 1}
+      Color_291FDAC2: {r: 1, g: 0, b: 0.9665775, a: 0}
+      Color_359AE62A: {r: 1, g: 1, b: 1, a: 1}
+      Color_36E05629: {r: 1, g: 1, b: 1, a: 0}
+      Color_5EEE7EA9: {r: 1, g: 1, b: 1, a: 1}
+      Color_71F74BF5: {r: 0, g: 0, b: 0, a: 1}
+      Color_9D8AB102: {r: 0.06735954, g: 0.01568625, b: 0.9921569, a: 0}
+      Color_C6944CB3: {r: 1, g: 1, b: 1, a: 1}
+      Vector2_2A758B5A: {r: 1, g: 1, b: 0, a: 0}
+      Vector2_2C01B2B0: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_311015EF: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_342E5819: {r: 1, g: 1, b: 0, a: 0}
+      Vector2_6ECBD655: {r: 1, g: 1, b: 0, a: 0}
+      Vector2_70AB26E9: {r: -1, g: 0.2, b: 0, a: 0}
+      Vector2_71E6BBCF: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_9E28F2B4: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_BE10F739: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_E31A071: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_EA57AC4E: {r: -1, g: 0, b: 0, a: 0}
+      Vector3_72286157: {r: 0.25, g: 0.2, b: 0.3, a: 0}
+      Vector3_DE631AD8: {r: 1, g: 0.95, b: 0.85, a: 0}
+      Vector4_7254DBBA: {r: 1, g: 0, b: 0, a: 0}
+      _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color2: {r: 0.009789954, g: 0.03133155, b: 0.03773582, a: 1}
+      _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Flip: {r: 1, g: 1, b: 1, a: 1}
+      _FresnelBorderColor: {r: 0, g: 0, b: 0, a: 1}
+      _FresnelFrontColor: {r: 0, g: 0, b: 0, a: 0}
+      _LastColor: {r: 0.0071644704, g: 0.036608223, b: 0.066037714, a: 0}
+      _MidColor: {r: 0.44544324, g: 0.6277535, b: 0.6603774, a: 0}
+      _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+      _ScrollingSpeed: {r: -0.15, g: -0.15, b: 0, a: 0}
+      _SecondTexSpeed_NoiseForce: {r: 0, g: 0, b: 0, a: 0}
+      _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+      _TintColor: {r: 1, g: 1, b: 1, a: 0.5}
+      _VertexOffsetVec: {r: 1, g: 0, b: 1, a: 0}
+      _diff_color: {r: 1, g: 1, b: 1, a: 1}
+      _highlight_color: {r: 1, g: 1, b: 1, a: 1}
